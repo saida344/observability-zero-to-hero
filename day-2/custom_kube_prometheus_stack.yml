@@ -17,3 +17,10 @@ alertmanager:
     # ✅ Solves error: Get rid of namespace matchers when creating AlertManagerConfig (GitHub issue)
     alertmanagerConfigMatcherStrategy:
       type: "None"
+
+      
+prometheus:
+  prometheusSpec:
+    replicas: 2
+    retention: 10d
+    maximumStartupDurationSeconds: 300 
