@@ -16,4 +16,4 @@ alertmanager:
     # ✅ Solves error: Incorrect matcher strategy can lead to unhandled alert configurations.
     # ✅ Solves error: Get rid of namespace matchers when creating AlertManagerConfig (GitHub issue)
     alertmanagerConfigMatcherStrategy:
-      type: None
+      type: "None"
